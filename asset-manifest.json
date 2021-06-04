@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DigiCurrency/static/css/main.c810c353.chunk.css",
+    "main.js": "/DigiCurrency/static/js/main.ad7811d0.chunk.js",
+    "main.js.map": "/DigiCurrency/static/js/main.ad7811d0.chunk.js.map",
+    "runtime-main.js": "/DigiCurrency/static/js/runtime-main.2dacf073.js",
+    "runtime-main.js.map": "/DigiCurrency/static/js/runtime-main.2dacf073.js.map",
+    "static/js/2.c76cafca.chunk.js": "/DigiCurrency/static/js/2.c76cafca.chunk.js",
+    "static/js/2.c76cafca.chunk.js.map": "/DigiCurrency/static/js/2.c76cafca.chunk.js.map",
+    "index.html": "/DigiCurrency/index.html",
+    "static/css/main.c810c353.chunk.css.map": "/DigiCurrency/static/css/main.c810c353.chunk.css.map",
+    "static/js/2.c76cafca.chunk.js.LICENSE.txt": "/DigiCurrency/static/js/2.c76cafca.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2dacf073.js",
+    "static/js/2.c76cafca.chunk.js",
+    "static/css/main.c810c353.chunk.css",
+    "static/js/main.ad7811d0.chunk.js"
+  ]
+}
