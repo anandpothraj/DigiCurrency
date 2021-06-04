@@ -1,13 +1,224 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1c;
+     color: #fff; 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+    height: auto;
+    width: 100vw;
 }
+
+.searchContainer{
+    background-color: #1a1a1c;
+    color: #fff;
+    height: 150px;
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.searchText{
+    padding: 15px;
+}
+
+.placeholderText{
+    padding-left: 16px;
+    width: 60%;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: black;
+    font-size: 1rem;
+    font-weight:500;
+}
+
+.placeholderText::placeholder{
+    color: black;
+}
+
+.coinContainer{
+    max-width: 70%;
+    height: auto;
+    margin: 2% auto;
+
+}
+
+.coinRow{
+    display: flex;
+    max-width: 80%;
+    margin: 2% auto;
+}
+
+.coinInfo{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.coinRow img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+h3{
+    margin: 0px 18px 15px 18px;
+    width: 140px;
+    
+}
+
+.coinData{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.data1{
+    width: 70%;
+    display: flex;
+    color: white;
+}
+.data1 p{
+    margin: 3px 30px;
+    padding: 1px;
+}
+.coinSymbol{
+    width: 45px;
+    margin-right:15px;
+}
+.coinPrice{
+    width: 100px;
+}
+
+.coinVolume{
+    width: 150px;
+}
+
+.data2{
+    width: 30%;
+    display: flex;
+    color: white;
+}
+
+.coinMarketcap{
+    margin-left: 20px;
+}
+
+.red{
+    color: #f00606;
+}
+
+.green{
+    color: #11d811;
+}
+
+.page{
+    height: 120px;
+    justify-content: center;
+    max-width: 70%;
+    margin: auto;
+
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.page-link{
+    text-decoration: none;
+}
+
+.page-item{
+    list-style: none;
+    padding: 0.5rem;
+    border: 1px solid white;
+    margin: 0.2rem;
+}
+
+@media only screen and (max-width: 1130px) {
+    .searchContainer{
+        max-width: 100%;
+        height: auto;
+        padding: 5px;
+    }
+    .coinContainer{
+        max-width: 100%;
+        margin: 7% auto;
+    }
+    .pagination{
+        max-width: 65%;
+    }
+    .coinInfo img{
+        margin-left: 6px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .page{
+        max-width: 100%;
+    }
+    .coinData{
+        display: flex;
+        flex-direction: column;
+        height: 122px;
+    }
+    .coinInfo{
+        display: flex;
+        flex-direction: column;
+        height: 122px;
+    }
+    .coinRow{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 7%;
+    }
+    .coinRow img{
+        margin: auto;
+    }
+    .coinRow h3{
+        margin: auto;
+    }
+    .coinSymbol{
+        margin: auto;
+    }
+    .coinPrice{
+        margin: auto;
+    }
+    .coinVolume{
+        margin: auto;
+    }
+    .coinContainer{
+        max-width: 100%;
+    }
+    .page-item {
+        list-style: none;
+        padding: 0.1rem;
+        border: 1px solid white;
+        margin: 0.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
